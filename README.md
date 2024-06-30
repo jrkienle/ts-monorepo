@@ -24,3 +24,12 @@ The following prerequisites are optional, but highly recommended:
 
 - [Zed](https://zed.dev/)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+## Setup
+
+Once you've installed the above prerequisites, run through the following steps to get everything
+set up for local development:
+
+- Clone the repo (`$ git clone ssh://git@github.com:jrkienle/ts-monorepo.git`)
+- CD into the repo (`$ cd ./ts-monorepo`)
+- Install dependencies (`$ bun install`)
