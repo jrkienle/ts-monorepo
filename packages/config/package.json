@@ -10,7 +10,10 @@
     "url": "https://github.com/jrkienle/ts-monorepo/issues"
   },
   "homepage": "https://github.com/jrkienle/ts-monorepo/tree/main/packages/config#readme",
-  "keywords": ["configuration", "jrkienle"],
+  "keywords": [
+    "configuration",
+    "jrkienle"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",

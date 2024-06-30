@@ -22,13 +22,15 @@ dependencies to install.
 ### Key Sorting
 
 The following keys should appear in the order presented here, and must be the first keys in
-  every package.json file:
-  1. `name`
-  2. `version`
-  3. `description`
-  4. `scripts`
+every package.json file:
+
+1. `name`
+2. `version`
+3. `description`
+4. `scripts`
 
 **✅ Correct Example:**
+
 ```json
 {
   "name": "@jrkienle/my-package",
@@ -41,6 +43,7 @@ The following keys should appear in the order presented here, and must be the fi
 ```
 
 **🚫 Incorrect Example (Missing Required Fields):**
+
 ```json
 {
   "name": "@jrkienle/my-package",
@@ -51,6 +54,7 @@ The following keys should appear in the order presented here, and must be the fi
 ```
 
 **🚫 Incorrect Example (Fields Not First in File):**
+
 ```json
 {
   "author": "James Kienle",
@@ -64,6 +68,7 @@ The following keys should appear in the order presented here, and must be the fi
 ```
 
 **🚫 Incorrect Example (Incorrect Order):**
+
 ```json
 {
   "name": "@jrkienle/my-package",
@@ -79,6 +84,7 @@ All remaining keys should be sorted in alphabetical order. If any values contain
 instance, an array or object), the children must also be sorted in alphabetical order".
 
 **✅ Correct Example:**
+
 ```json
 {
   "name": "@jrkienle/my-package",
@@ -95,6 +101,7 @@ instance, an array or object), the children must also be sorted in alphabetical 
 ```
 
 **🚫 Incorrect Example (Incorrect Key Order):**
+
 ```json
 {
   "name": "@jrkienle/my-package",
@@ -111,6 +118,7 @@ instance, an array or object), the children must also be sorted in alphabetical 
 ```
 
 **🚫 Incorrect Example (Incorrect Child Order):**
+
 ```json
 {
   "name": "@jrkienle/my-package",
@@ -132,6 +140,7 @@ This repo only uses ESM. Because of this, the `type` field is required in every 
 and must be set to `module`.
 
 **✅ Correct Example:**
+
 ```json
 {
   "name": "@jrkienle/my-package",
@@ -143,6 +152,7 @@ and must be set to `module`.
 ```
 
 **🚫 Incorrect Example (Incorrect Value):**
+
 ```json
 {
   "name": "@jrkienle/my-package",
@@ -154,6 +164,7 @@ and must be set to `module`.
 ```
 
 **🚫 Incorrect Example (Key Omitted):**
+
 ```json
 {
   "name": "@jrkienle/my-package",
@@ -166,14 +177,16 @@ and must be set to `module`.
 ### Required Fields for Public Packages
 
 For packages that are intended on being published, the following keys are required:
-  - `author`
-  - `bugs`
-  - `homepage`
-  - `keywords`
-  - `license`
-  - `repository`
+
+- `author`
+- `bugs`
+- `homepage`
+- `keywords`
+- `license`
+- `repository`
 
 **✅ Correct Example:**
+
 ```json
 {
   "name": "@jrkienle/my-package",
@@ -196,6 +209,7 @@ For packages that are intended on being published, the following keys are requir
 ```
 
 **🚫 Incorrect Example (Missing Fields):**
+
 ```json
 {
   "name": "@jrkienle/my-package",
@@ -213,9 +227,11 @@ For packages that are intended on being published, the following keys are requir
 ### Required Fields for Private Packages
 
 For packages that are **not** intended on being published, the following keys are required:
-  - `private` (must be set to `true`)
+
+- `private` (must be set to `true`)
 
 **✅ Correct Example:**
+
 ```json
 {
   "name": "@jrkienle/my-package",
@@ -228,6 +244,7 @@ For packages that are **not** intended on being published, the following keys ar
 ```
 
 **🚫 Incorrect Example (Incorrect Value):**
+
 ```json
 {
   "name": "@jrkienle/my-package",
@@ -240,6 +257,7 @@ For packages that are **not** intended on being published, the following keys ar
 ```
 
 **🚫 Incorrect Example (Key Omitted):**
+
 ```json
 {
   "name": "@jrkienle/my-package",
