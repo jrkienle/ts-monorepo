@@ -41,3 +41,21 @@ standards automated and linter-enforceable as possible. These standards are desi
 personal workflow and help me to write better, cleaner code, and some of them are definitely
 designed around "this feels right" rather than "this is supported by data". These standards can be
 found in [CODE_GUIDELINES.md](./CODE_GUIDELINES.md).
+
+## 💻 Usage
+
+The following commands are available to help you develop inside of this repo:
+
+- `bun run build`: Creates production builds of every app and package
+- `bun run clean`: Deletes all node modules, caches, and build outputs to provide a clean env
+- `bun run dev`: Runs hot-reloadable dev servers for every app and package
+- `bun run format`: Applies standardized formatting to every file in the repo
+- `bun run lint`: Checks linter rules against every file in the repo
+- `bun run test`: Runs all unit tests for every app and package
+- `bun run typecheck`: Runs TypeScript compiler and checks typings for every app and package
+
+## Available Packages
+
+The following packages are available to be used:
+
+`@jrkienle/config`: Common Configuration Files for the `@jrkienle` Monorepo

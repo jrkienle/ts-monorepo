@@ -3,3 +3,6 @@ node_modules
 
 # Finder Folder Config
 .DS_Store
+
+# TurboRepo Cache
+.turbo

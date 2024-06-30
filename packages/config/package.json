@@ -2,16 +2,15 @@
   "name": "@jrkienle/ts-monorepo",
   "version": "0.0.0",
   "description": "Common Configuration Files for the @jrkienle Monorepo",
-  "scripts": {},
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules"
+  },
   "author": "James Kienle <james@fennkienle.com> (https://www.jameskienle.com)",
   "bugs": {
     "url": "https://github.com/jrkienle/ts-monorepo/issues"
   },
   "homepage": "https://github.com/jrkienle/ts-monorepo/tree/main/packages/config#readme",
-  "keywords": [
-    "configuration",
-    "jrkienle"
-  ],
+  "keywords": ["configuration", "jrkienle"],
   "license": "MIT",
   "repository": {
     "type": "git",
