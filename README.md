@@ -13,3 +13,14 @@ projects are mostly experiments that I do in my free time. With that in mind, en
 
 Everything in this repo is licensed under the MIT license. If you either don't know what that means
 or really want to dig into the license for whatever reason, check out [LICENSE.md](LICENSE.md).
+
+## Prerequisites
+
+The following prerequisites are **required** to develop with this repo:
+
+- [Bun](https://bun.sh/)
+
+The following prerequisites are optional, but highly recommended:
+
+- [Zed](https://zed.dev/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
