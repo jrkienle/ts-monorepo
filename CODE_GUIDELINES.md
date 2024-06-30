@@ -11,7 +11,18 @@ document that contains my own personal code guidelines. Enjoy!
 
 ## 📖 Table of Contents
 
-1. [📦 `package.json`](#-packagejson)
+1. [🎨 Code Style](#code-style)
+2. [📦 `package.json`](#-packagejson)
+
+## 🎨 Code Style
+
+Every file in this repo adheres to Prettier's default code style with the following changes:
+
+1. `printWidth` is set to `100`
+2. `singleQuote` is set to `true`
+3. `trailingComma` is set to `es5`
+
+If you're using Zed, Prettier formatting will be automatically applied to each file on-save.
 
 ## 📦 `package.json`
 
