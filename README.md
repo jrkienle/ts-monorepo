@@ -33,3 +33,11 @@ set up for local development:
 - Clone the repo (`$ git clone ssh://git@github.com:jrkienle/ts-monorepo.git`)
 - CD into the repo (`$ cd ./ts-monorepo`)
 - Install dependencies (`$ bun install`)
+
+## Code Guidelines
+
+This repo follows my own set of very strict code standards with the goal of having as many of these
+standards automated and linter-enforceable as possible. These standards are designed around my
+personal workflow and help me to write better, cleaner code, and some of them are definitely
+designed around "this feels right" rather than "this is supported by data". These standards can be
+found in [CODE_GUIDELINES.md](./CODE_GUIDELINES.md).
