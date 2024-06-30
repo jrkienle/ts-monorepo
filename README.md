@@ -9,12 +9,12 @@ anything here gets big enough I might move it to its own repo/org, but I'm not c
 Feel free to dig through anything in here, but please don't expect any official support as these
 projects are mostly experiments that I do in my free time. With that in mind, enjoy!
 
-## License
+## 💼 License
 
 Everything in this repo is licensed under the MIT license. If you either don't know what that means
-or really want to dig into the license for whatever reason, check out [LICENSE.md](LICENSE.md).
+or really want to dig into the license for whatever reason, check out [LICENSE.md](./LICENSE.md).
 
-## Prerequisites
+## 👶 Prerequisites
 
 The following prerequisites are **required** to develop with this repo:
 
@@ -25,7 +25,7 @@ The following prerequisites are optional, but highly recommended:
 - [Zed](https://zed.dev/)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
-## Setup
+## ⚒️ Setup
 
 Once you've installed the above prerequisites, run through the following steps to get everything
 set up for local development:
@@ -34,7 +34,7 @@ set up for local development:
 - CD into the repo (`$ cd ./ts-monorepo`)
 - Install dependencies (`$ bun install`)
 
-## Code Guidelines
+## 📚 Code Guidelines
 
 This repo follows my own set of very strict code standards with the goal of having as many of these
 standards automated and linter-enforceable as possible. These standards are designed around my
