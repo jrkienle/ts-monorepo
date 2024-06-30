@@ -1,9 +1,14 @@
 {
-  "preferred_line_length": 100,
   "formatter": {
     "external": {
       "command": "./node_modules/.bin/prettier",
-      "arguments": ["--stdin-filepath", "{buffer_path}"]
+      "arguments": [
+        "--config ./packages/config/.prettierrc.js",
+        "--stdin-filepath",
+        "{buffer_path}"
+      ]
     }
-  }
+  },
+  "format_on_save": "on",
+  "preferred_line_length": 100
 }
